@@ -6,25 +6,44 @@
 #include <stddef.h>
 #pragma once
 
-
-// Classe CrcIButton
-// Calcul du CRC IButton
+/**
+ * @brief iButton CRC template class
+ * 
+ * @tparam T Type of data to calculate CRC
+ */
 template<class T>
 class CrcIButton {
   public:
-    // Valeur initiale du CRC
+    /**
+     * @brief Initial value of CRC
+     */
     const static uint8_t InitValue = 0x5A;
-    // Constructeur
+
+    /**
+     * @brief Construct a new Crc I Button object
+     */
     CrcIButton () : m_ucCrc (InitValue) {}
-    // Réinitialisation du CRC
+
+    /**
+     * @brief Reset CRC value
+     */
     void reset () {
       m_ucCrc = InitValue;
     }
-    // Valeur du CRC
+
+    /**
+     * @brief Get the value of CRC
+     * @return uint8_t 
+     */
     uint8_t value () const {
       return m_ucCrc;
     }
-    // Mise à jour du CRC
+
+    /**
+     * @brief Update CRC with a T value
+     * 
+     * @param value Value to update CRC
+     */
     void update (const T &value) {
       const uint8_t *buf = reinterpret_cast<const uint8_t *> (&value);
       size_t len = sizeof (T);
@@ -33,8 +52,14 @@ class CrcIButton {
       }
     }
   private:
-    uint8_t m_ucCrc; // Valeur du CRC
-    // Mise à jour du CRC octet par octet
+    uint8_t m_ucCrc; ///< CRC value
+    /**
+     * @brief Update CRC with a byte
+     * 
+     * @param crc  Current CRC value
+     * @param data  Byte to update CRC
+     * @return Updated CRC value
+     */
     static inline uint8_t CrcIButtonUpdate (uint8_t crc, uint8_t data) {
       unsigned int i;
 
