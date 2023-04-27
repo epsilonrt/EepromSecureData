@@ -1,0 +1,26 @@
+{
+  "name": "EepromSecureData",
+  "version": "0.1.0",
+  "keywords": "data storage, eeprom, crc",
+  "description": "CRC-controlled EEPROM memory storage",
+  "homepage": "https://epsilonrt.github.io/EepromSecureData",
+  "authors":
+  [
+    {
+      "name": "Pascal JEAN aka epsilonrt",
+      "url": "https://github.com/epsilonrt",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/epsilonrt/EepromSecureData.git"
+  },
+  "license": "LGPL-2.1-or-later",
+  "examples":[
+    "examples/*/*.ino"
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
