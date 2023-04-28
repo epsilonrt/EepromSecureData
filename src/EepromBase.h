@@ -15,4 +15,7 @@ struct EepromBaseStatic {
 template<class Dummy>
 uint16_t EepromBaseStatic<Dummy>::counter = 0;
 
+/**
+ * @brief EEPROM memory storage management class
+ */
 class EepromBase : public EepromBaseStatic<void> {};
