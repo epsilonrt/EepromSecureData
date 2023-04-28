@@ -1,6 +1,6 @@
 {
   "name": "EepromSecureData",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": "data storage, eeprom, crc",
   "description": "CRC-controlled EEPROM memory storage",
   "homepage": "https://epsilonrt.github.io/EepromSecureData",
