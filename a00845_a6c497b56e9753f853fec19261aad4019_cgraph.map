@@ -1,0 +1,4 @@
+<map id="EepromSecureData::load" name="EepromSecureData::load">
+<area shape="rect" id="node1" title="Load data from EEPROM memory with CRC check." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$a00845.html#aca90acc290d13f7e6ddb1f814a42fd08" title="Save data to EEPROM memory with CRC." alt="" coords="236,5,423,32"/>
+</map>
