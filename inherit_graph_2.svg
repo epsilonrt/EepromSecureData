@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="a00841.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="a00841.html" target="_top" xlink:title="EEPROM memory storage management class.">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 263,-19.5 263,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="224" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EepromBase</text>
 </a>

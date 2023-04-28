@@ -1,5 +1,5 @@
 <map id="EepromBase" name="EepromBase">
-<area shape="rect" id="node1" title=" " alt="" coords="65,412,169,489"/>
+<area shape="rect" id="node1" title="EEPROM memory storage management class." alt="" coords="65,412,169,489"/>
 <area shape="rect" id="node2" href="$a00837.html" title=" " alt="" coords="17,285,216,363"/>
 <area shape="rect" id="node3" href="$a00837.html" title=" " alt="" coords="5,145,228,223"/>
 <area shape="rect" id="node4" title=" " alt="" coords="59,5,174,83"/>
